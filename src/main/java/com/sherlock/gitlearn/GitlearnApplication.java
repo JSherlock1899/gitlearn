@@ -11,7 +11,7 @@ public class GitlearnApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello Git！-V.01 --branch sherlock";
+        return "Hello Git！-V.01 --branch sherlock --resherlock";
     }
 
     public static void main(String[] args) {
